@@ -41,6 +41,9 @@ img {
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+  background-color: #222;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* Position the "next button" to the right */
@@ -81,16 +84,22 @@ img {
 /* Six columns side by side */
 .column {
   float: left;
-  width: 16%;
+  width: 16.666%;
   margin: 0 auto;
 }
 
 /* Add a transparency effect for thumnbail images */
 .abstract-image {
-  opacity: 0.8;
 }
 
 .active,
 .abstract-image:hover {
   opacity: 1;
+}
+
+.slides img {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 60vh;
 }
